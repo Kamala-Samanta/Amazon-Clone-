@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+    color: white;
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.logo {
+    background-image: url("amazon_logo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 113px;
+}
+
+.border {
+    border: 1.5px solid  #0f1111;
+    padding: 3.5px;
+    border-radius: 4px;
+}
+.myborder{
+    border: 1.5px solid #232F3E;
+    padding: 3.5px;
+    border-radius: 4px;
+}
+.myborder:hover{
+    border: 1.5px solid white;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+
+
+.orange-border:hover {
+    border: 1.5px solid #FEBD69;
+    border-radius: 4px;
+}
+
+#address {
+    display: flex;
+}
+
+#address i {
+    color: white;
+    margin-right: 3px;
+    ;
+
+}
+
+#Deliver {
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+
+.nav-search {
+    height: 40px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+
+
+    #drop {
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+
+    }
+
+
+}
+
+#search {
+    width: 100%;
+    font-size: 15px;
+}
+
+.search-logo {
+    background-color: #FEBD69;
+    color: black;
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.signin p {
+    font-size: 0.8rem;
+
+}
+
+.signin a {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.cart {
+    display: flex;
+
+    i {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab2 {
+    padding-left: 15px;
+    height: 40px;
+    background-color: #232F3E;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 14px;
+
+    p {
+        padding: 7px;
+    }
+
+
+
+}
+
+#all {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+
+    i {
+        font-size: 17px;
+    }
+}
+
+
+/* content*/
+.hero {
+    height: 310px;
+    width: 100vw;
+    background-image: url("hero.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+#hero-line {
+    margin-bottom: 20px;
+    font-size: 14px;
+    background-color: #F5F6F6;
+    height: 20px;
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color: #007194
+    }
+}
+
+.shop_section {
+    display: flex;
+
+    background-color: #EBE0DD;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.box {
+
+    height: 430px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
+
+}
+
+.box_img {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box_content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    h2 {
+        font-size: 21px;
+    }
+
+
+}
+
+.box_content p {
+    color: #007185;
+    font-size: 13px;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+.panel1 {
+    color: #F2FFFF;
+    background-color: #37475A;
+    height: 49px;
+    width: 100vw;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.panel2 {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    width: 100vw;
+    background-color: #232F3E;
+
+}
+
+ul a {
+    display: block;
+    font-size: 14px;
+    color: #DDDDDD;
+    margin-bottom: 14px;
+
+}
+
+ul p {
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.panel3 {
+    color: white;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.panel4 {
+    color: white;
+    height: 60px;
+    background-color: #131A22;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+
+
+}
+
+.data4 {
+    visibility: flex;
+
+    a {
+        padding: 0px 7.2px;
+
+
+    }
+
+}
